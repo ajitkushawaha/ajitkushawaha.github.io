@@ -121,8 +121,8 @@
     }
     .about__section__row{
       height: 60rem;
-      margin:0;
-      width: 100%;
+      margin:-1rem;
+      width: 106%;
     }
     .column__right ul li{
      margin-bottom: 5rem;
@@ -145,7 +145,7 @@
     .skill__row__content {
       display: block;
       height: 100%;
-      width: 30rem;
+      width: 34rem;
     }
     .skill__name{
       margin: 0;
@@ -155,23 +155,23 @@
       width: 100%;
     }
     #html_word-space {
-      word-spacing: 13rem;
+      word-spacing: 17rem;
     }
     #css_word-space {
-      word-spacing: 13rem;
+      word-spacing: 15rem;
     }
     #js_word-space {
       word-spacing: 3rem;
     }
     #rjs_word-space {
-      word-spacing: 6rem;
+      word-spacing: 10rem;
     }
     #njs_word-space {
-      word-spacing: 10rem;
+      word-spacing: 14rem;
     }
     
     #java_word-space {
-      word-spacing: 12rem;
+      word-spacing: 14rem;
     }
     
     .qualifications {
@@ -231,12 +231,19 @@
     #slidebar {
       transition: all 5s;
     }
+    
+/*     PROJECT SECTION */
+    
+    .section-project{
+      padding: 0;
+    }
     .projects{
       display: block;
+      padding:0;
     }
     .projects img{
      height: 20rem;
-     width: 36rem;
+     width: 33rem;
      border:0;
       
     }
