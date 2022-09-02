@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <link rel="stylesheet" href="/style.css"/>
+  <link rel="stylesheet" href="responcive.css"/>
+</head>
+
+<body>
+  <div class="main-body">
+    <section class="slidebar" id="slidebar">
+      <ul class="navbar-items">
+        <li class="navbaar-items-list" style="--1:7"><a href="#hero" class="item-name">Home</a></li>
+        <li class="navbaar-items-list" style="--1:6"><a href="#about" class="item-name">About</a></li>
+        <li class="navbaar-items-list" style="--1:5"><a href="#skill_title" class="item-name">Skills</a></li>
+        <li class="navbaar-items-list" style="--1:4"><a href="#contact" class="item-name">Contact</a></li>
+        <li class="navbaar-items-list" style="--1:3"><a href="#education" class="item-name">MyEducation</a></li>
+        <li class="navbaar-items-list" style="--1:1"><a href="#my-project" class="item-name">Project</a></li>
+      </ul>
+    </section>
+
+    <!-- header section starts -->
+    <header class="menubar-hide" id="hide">
+      <div class="user logo--container">
+        <img src="/picture/Ajit profile.jpg" alt="profile_logo" class="profiel__logo">
+        <h3 class="name">Ajit Kushwaha</h3>
+      </div>
+      <div class="manubar__box">
+        <a href="#" onclick="slidebarToggal()"><i class="fa fa-bars menubar--icon"></i></a>
+      </div>
+      <div class="navbar">
+        <ul class="navbal__list">
+          <li><a href="#hero" class="navbar__headings">Home</a></li>
+          <li><a href="#about " class="navbar__headings">About</a></li>
+          <li><a href="#skill_title" class="navbar__headings">Skills</a></li>
+          <li><a href="#education" class="navbar__headings">MyEducation</a></li>
+          <li><a href="#contacts" class="navbar__headings">Contact</a></li>
+        </ul>
+      </div>
+  </div>
+
+  </header>
+
+  <!-- Header section end -->
+
+
+  <!-- Hero Section Start -->
+
+  <section clas="hero__section" id="hero">
+
+    <div class="hero__section__name">
+      <h1 class="heading-primary">Ajit Kushwaha</h1>
+      <p>Hi There I'm Front End <span class="typing" style="color:yellow ; font-weight:bold"></span> </p>
+
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+
+  <section class="about__section" id="about">
+    <div class="primary__heading">
+      <h1 class="about__heading">About</h1>
+      <p class="about__paragraph">Hello! I am Ajit Kushwaha.
+        I am a student at Riet Collage in Master of Computer Application.
+         I enjoy solving problems,researching and developing new technologies,
+         and designing website applications for different platforms. 
+         I enjoy meeting people and working with them in a team environment. 
+         I am a quick learner with a fun, outgoing personality. In addition,
+          I excel in my ability to work under pressure and handle stressful situations very well.
+           These skills that I have will be a benefit to any information technology company. 
+           I have knowledge of object-oriented programming languages like C++, 
+           Java, and Web Technologies such as HTML, CSS, JavaScript.</p>
+    </div>
+   
+    <div class="about__section__row">
+      <div class="col__left">
+        <img class="col_image" src="/picture/sldl.jpg" id="about__image" alt="">
+      </div>
+      <div class="column__right">
+        <ul>
+          <li><i class="fa fa-birthday-cake"></i> <strong>Birthday:</strong> <span>15/06/1999</span></li>
+          <li><i class="fa fa-envelope"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+          <li><i class="fa fa-phone"></i> <strong>Phone:</strong> <span>+917617028576</span></li>
+          <li><i class="fa-solid fa-city"></i> <strong>City:</strong> <span> jaipur</span></li>
+          <li><i class="fa fa-graduation-cap"></i> <strong>Degree:</strong> <span>MCA</span></li>
+          <li><i class="fa fa-envelope"></i> <strong>Mail:</strong> <span>ak3311600@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- skill section start -->
+  <section class="skill" id="sections">
+    <div class="container">
+      <div class="primary__heading">
+        <h1 class="skill_title" id="skill_title">Profetional Skills</h1>
+      </div>
+      <div class="skill__row__content">
+
+        <div class="row1">
+          <div class="skill__name" id="html_word-space">
+            <h4>HTML 100%</h4>
+            <div class="html__pre">
+              <dive class="color__pre"> </dive>
+            </div>
+          </div>
+
+          <div class="skill__name" id="css_word-space">
+            <h4>CSS 80%</h4>
+            <div class="html__pre">
+              <dive class="color__pre" id="css_color-space"> </dive>
+            </div>
+          </div>
+
+          <div class="skill__name" id="js_word-space">
+            <h4>JAVASCRIPT 60%</h4>
+            <div class="html__pre">
+              <dive class="color__pre" id="js_color-pro"> </dive>
+            </div>
+          </div>
+        </div>
+
+        <div class="row2">
+          <div class="skill__name" id="rjs_word-space">
+            <h4>REACTJS updatesoon...</h4>
+            <div class="html__pre">
+              <dive class="color__pre" id="rjs_color-pro"> </dive>
+            </div>
+          </div>
+
+          <div class="skill__name" id="njs_word-space">
+            <h4>NODEJS learning...</h4>
+            <div class="html__pre">
+              <dive class="color__pre" id="njs_color-pro"> </dive>
+            </div>
+          </div>
+
+          <div class="skill__name" id="java_word-space">
+            <h4>JAVA 70%</h4>
+            <div class="html__pre">
+              <dive class="color__pre" id="java_color-pro"> </dive>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION SECTION START -->
+
+  <section class="education" id="sections">
+    <div class="primary__heading">
+      <h3 class="education__heading" id="education">Education &amp;<span> Experience</span> </h3>
+    </div>
+
+    <div class="box-container">
+
+      <div class="qualifications">
+        <h1 class="education__headings">My Qualifications</h1>
+        <div class="box">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>MCA </h3>
+          <span>2021-2023</span>
+          <p class="education--para">Currently Pursuing
+            Master of Computer Application. 2nd Sem Student fromm<strong style="color:rgb(96, 156, 241);">
+              Rajasthan Institute of Engineering and Technology</strong></p>
+        </div>
+
+
+        <div class="box">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>BCA </h3>
+          <span>2019-2021</span>
+          <p class="education--para"> I did my graduation Bachelor's in Computer Application from-- <br>
+            <strong style="color:rgb(96, 156, 241);"> JP Institute of Engineering and Technology Meerut</strong>
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>Senior Secondary|High School</h3>
+          <span>2014-2017</span>
+          <p class="education--para"> <strong style="color:rgb(96, 156, 241);">
+              Shivaji Intermediate Collage Khukhundoo Deoria <br></strong>
+            Was doing with Mathematics with 73% in high school 78%</p>
+        </div>
+
+      </div>
+
+      <div class="experiece" id=" ">
+        <h1 class="education__headings">My Experience</h1>
+
+        <div class="box">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>Front End Development</h3>
+          <span><strong style="color:rgb(96, 156, 241);">
+              Self learning | Good</strong></span>
+          <p class="education--para">
+            Started learning web developing for Fun . and i fell in love with this , and start exploring web
+            development with my own reasearches by doccumentions reading books and Watching videos</p>
+        </div>
+
+        <div class="box ">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>Acadmic Project</h3>
+          <span style="color:skyblue;">IPhone design|Calculator</span>
+          <div class="my__project" id="my-project">
+            <a href="./Nature/index.html" class="open-page">IPhone Design &rarr;</a>
+            <a href="../Calcuc:\Users\ak331\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.htmllator2/clsi.html" class="open-page"> Open Calculator &rarr;</a>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa fa-graduation-cap"></i>
+          <h3>Front End Development</h3>
+          <span>2019</span>
+          <p class="education--para">lorem10Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa,
+            consequatur?</p>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+<!-- PROJECT SECTION START -->
+  <section class="section-project">
+    <div class="primary__heading">
+      <h1 id="contacts">Projects</h1>
+    </div>
+  <div class="projects">
+    <div class="first">
+
+      <div class="nature">
+       <a href="./Nature/index.html"><img src="/nature-img.png" class="nature"></a>
+      </div>
+      <div class="eat&meat">
+        <a href="./Eat & meat project/home.html"><img src="/em.png" class="eat__meet"></a>
+      </div>
+    </div>
+
+    <div class="second">
+      <div class="Facebook-clone">
+        <a href="./facebook-project/index.html"><img src="/fb.png" class="facebook"></a>
+      </div>
+
+      <div class="Calculator">
+        <a href="./calculator/calculator.html"><img src="/clc.png" class="clc"></a>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- CONTACT SECTION START -->
+
+
+  <section class="contact-section" id="sections">
+    <div class="primary__heading">
+      <h1 id="contacts">Contacts</h1>
+    </div>
+    <div class="contact-container">
+      <div class="map-location">
+        <div class="detail1">
+          <div class="location">
+            <i class="fa fa-phone"></i>
+           
+            <p id="address">Santosh Vatika jaipur 302012</p>
+          </div>
+
+          <div class="location">
+            <i class="fa fa-envelope"></i>
+            
+            <p id="address">akk3311600@gmail.com</p>
+          </div>
+          <div class="location">
+            <i class="fa fa-phone" id="material"></i>
+            
+            <p id="address">7617028576</p>
+          </div>
+          <div class="location">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.4683740989017!2d75.62965806478611!3d26.88862666760013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4b8aaab5daf5%3A0x5fd39eeeb96cf36b!2sSanthosh%20Vatika!5e0!3m2!1sen!2sin!4v1654624459308!5m2!1sen!2sin"
+              style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+          </div>
+        </div>
+
+        <div class="detail2">
+          <div class="contact-container2">
+            <form action="#" class="form">
+              <div class="form__group">
+                  <input type="text" class="form__input" id="name" placeholder="Full Name" required >
+                  <label for="name" class="form__label">Full Name</label>
+              </div>
+              <div class="form__group">
+                  <input type="email" class="form__input" id="email" placeholder="Email Address" required>
+                  <label for="email" class="form__label">Email Address</label>
+              </div>
+              <div class="form__group">
+                  <input type="email" class="form__input" id="email" placeholder="Subject" required>
+                  <label for="email" class="form__label">Subject</label>
+              </div>
+              <div class="form__group">
+                  <textarea id="subject" class="form__input" cols="15" rows="10" placeholder="Message" required></textarea> 
+                  <label for="email" class="form__label">Message</label>
+              </div>
+             
+              <div class="form__group sand__btns">
+                  <button class="sand__btn">Sand &rarr;</button>
+              </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER SECTION  -->
+
+  <section class="footer" id="sections">
+    <div class="footer-icons">
+
+      <div class="footer-title">
+        <h3>Ajit Kushwaha</h3>
+      </div>
+
+      <div id="sociol-icones">
+        <div class="anchor">
+          <a href="https://www.facebook.com/ajit.kushwaha.90834" target="_blank" class="facebook"><i
+              class="fa fa-facebook icons" title="Facebook"></i></a>
+        </div>
+
+        <div class="anchor">
+          <a href="https://twitter.com/AjitKus40102887?" target="_blank" class="twitter"> <i
+              class="fa fa-twitter icons " title="Twitter"></i></a>
+        </div>
+
+        <div class="anchor">
+          <a href="https://www.instagram.com/ajju_kushwaha77" target="_blank" class="instagram"><i
+              class="fa fa-instagram icons" title="Instagam"></i></a>
+        </div>
+
+        <div class="anchor">
+          <a href="www.linkedin.com/in/ajit-kushwaha77" target="_blank" class="linkdin"><i class="fa fa-linkedin icons"
+              title="linkedin"></i></a>
+        </div>
+
+      </div>
+      <div class="copyright">
+        <p><strong>&copy;Privacy. |</strong></p>
+        <p><strong>Tearms |</strong></p>
+        <p><strong>FAQs |</strong></p>
+        <p><strong>Help |</strong></p>
+      </div>
+    </div>
+  </section>
+  </div>
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

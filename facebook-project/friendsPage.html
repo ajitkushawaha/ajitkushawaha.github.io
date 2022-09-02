@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="./images/facebook-logo.png" alt="logo" class="logo" />
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search Facebook" autocomplete="off" />
+            </div>
+        </div>
+
+        <div class="nav-mid">
+            <a href="./index.html"><i class="fa fa-home" aria-hidden="true" title="Home"></i></a>
+            <i class="fa-brands fa-youtube" title="Watch"></i>
+            <i class="fa-solid fa-store" title="Market Place"></i>
+            <i class="fa-solid fa-gamepad" title="Gaming"></i>
+            <i class="fa fa-group" title="Goup"></i>
+        </div>
+
+        <div class="nav-right">
+            <ul>
+                <li><i class="fa-solid fa-table-cells" title="Menu"></i></li>
+                <li><i class="fab fa-facebook-messenger" title="Massenger"></i></li>
+                <li>
+                    <i class="fa-solid fa-bell fa-shake" title="Notification"></i>
+                </li>
+            </ul>
+
+            <div class="nav-user-icon online" onclick="menuToggle()">
+                <img src="./images/Ajit profile.jpg" title="Your Profile" />
+            </div>  
+        </div>
+
+
+   <!--------- Left-Sidebar --------- -->
+     <div class="menu-setting" id="settingMenus">
+        <div class="menu-setting-inner">
+
+            <div class="user-profile post__profile">
+                <img src="/images/Ajit profile.jpg"  />
+                    <div>
+                        <p>Ajit Kushwaha</p>
+                    </div>
+            </div>
+            <hr>
+             <div class="see-profile">
+                 <a href="#"> See Your Profile</a>
+             </div>
+        </div>
+        
+        <div class="settings-links">
+            <img src="./images/setting.png" class="settings-icon" >
+            <a href="#">Setting & privacy <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/help.png" class="settings-icon">
+            <a href="#">Help & support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/display.png" class="settings-icon">
+            <a href="#">Display & Support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/feedback.png" class="settings-icon">
+            <a href="#">Give feedback <img src="./images/arrow.png" 
+                width="10px"></a>
+         </div>
+         <div class="settings-links">
+            <i class="fa fa-moon settings-icon" id="moon"></i>
+            <a href="#">Dark mode <i id="dark-btn"> <span></span></i> </a>
+        </div>
+
+         <div class="privacy-copyright">
+            <a href="#"><span style="color:#2D88FF">Privacy.term</span>.advertising.meta 
+                <span style="color:#2D88FF">copyRight 2022.</span> </a>
+         </div>
+
+    </nav>
+
+    <div class="friends-section">
+
+        <div class="friends-left-sidebar">
+            <div class="friends-setting">
+                <h3>friends</h3>
+                <img src="./images/setting.png" class="settings-icon" >
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-user-group settings-icon"></i>
+                <a href="./index.html">home </a>
+        
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-user-plus settings-icon"></i>
+                <a href="#request-friend">friends requests <img src="./images/arrow.png" 
+                    width="10px"></a>
+        
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-user-gear settings-icon"></i>
+                <a href="#">suggestions <img src="./images/arrow.png" 
+                    width="10px"></a>
+        
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-users settings-icon"></i>
+                <a href="#">all friends <img src="./images/arrow.png" 
+                    width="10px"></a>
+        
+            </div>
+          
+            <div class="settings-links">
+                <i class="fa-solid fa-cake-candles settings-icon"></i>
+                <a href="#">birthaday </a>
+             </div>
+                   
+            <div class="settings-links">
+                <i class="fa-solid fa-users-line settings-icon"></i>
+                <a href="#"> custom lists<img src="./images/arrow.png" 
+                    width="10px"></a>
+             </div>
+        </div>
+    
+        <div class="friends-right-sidebar">
+            <div class="friend-section-title">
+             <p>Friend Request</p>
+               <a href="#">See all</a>
+            </div>
+          <div class="grid-test">
+              <div class="row">
+                 <div class="col-1-of-4">
+                    <div class="add-friend1 add-img">
+                        <img src="./images/gopal.jpg" alt="">
+
+                        <p>Gopal Khorwal</p>
+                        <span>1 Mutual Friend</span>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                    </div>
+                 </div>
+             
+                 <div class="col-1-of-4">
+                    <div class="add-friend1 add-img">
+                        <img src="./images/member-6.png" alt="">
+
+                        <p>Amelia</p>
+                        <span>3 Mutual Friend</span>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                    </div>
+                 </div>
+             
+                 <div class="col-1-of-4">
+                    <div class="add-friend1 add-img">
+                        <img src="./images/member-9.png" alt="">
+
+                        <p>Aryan Khan</p>
+                        <span>6 Mutual Friend</span>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                    </div>
+                 </div>
+                 <div class="col-1-of-4">
+                    <div class="add-friend1">
+                        <img src="./images/member-5.png" alt="">
+
+                        <p>Jameson</p>
+                        <span>1Mutual Friend</span>
+                    </div>
+                    <div class="btns">
+                        <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                    </div>
+                 </div>
+             </div>
+            
+             
+             <div class="grid-test">
+                <div class="row">
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/member-4.png" alt="">
+
+                          <p>Bprag</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                          <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                      </div>
+                   </div>
+               
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/member-3.png" alt="">
+
+                          <p>Jashika</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                          <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                      </div>
+                   </div>
+               
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/member-2.png" alt="">
+
+                          <p>Karlo</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                          <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                      </div>
+                   </div>
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/member-8.png" alt="">
+
+                          <p>Jenny</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                        <a href="#" class=" button-btn1">Confirm</a>
+                        <a herf="#" class=" button-btn2">Delete</a>
+                      </div>
+                   </div>
+               </div>
+
+               <div class="see-more-icon">
+                <a href="#">See more <i class="fa-solid fa-caret-down"></i></a> </a>
+               </div>
+              <hr>
+               <div class="friend-section-title">
+                <p>Peapole You May Know</p>
+                  <a href="#">See all</a>
+               </div>
+               <div class="grid-test">
+                <div class="row">
+                   <div class="col-1-of-4">
+                      <div class="add-friend1" id="request-friend">
+                        <img src="./images/ramesh jangid.jpg" alt="">
+
+                          <p>Ramesh Jangid</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                         <a href="#" class=" button-btn1">Add Friend</a>
+                        <a herf="#" class=" button-btn2">Remove</a>
+                      </div>
+                   </div>
+               
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/gopal.jpg" alt="">
+
+                          <p>Gopal Khorwal</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                         <a href="#" class=" button-btn1">Add Friend</a>
+                        <a herf="#" class=" button-btn2">Remove</a>
+                      </div>
+                   </div>
+               
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/status-3.png" alt="">
+
+                          <p>Tanner</p>
+                          <span>10 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                         <a href="#" class=" button-btn1">Add Friend</a>
+                        <a herf="#" class=" button-btn2">Remove</a>
+                      </div>
+                   </div>
+                   <div class="col-1-of-4">
+                      <div class="add-friend1">
+                        <img src="./images/status-2.png" alt="">
+
+                          <p>Barinaa</p>
+                          <span>1 Mutual Friend</span>
+                      </div>
+                      <div class="btns">
+                         <a href="#" class=" button-btn1">Add Friend</a>
+                        <a herf="#" class=" button-btn2">Remove</a>
+                      </div>
+                   </div>
+               </div>
+          </div>
+      </div>
+</div>
+
+
+
+
+
+    <script >
+
+function menuToggle() {
+    var x = document.getElementById("settingMenus");
+      if (x.style.display === "none") 
+      {
+          x.style.display = "block";
+      } 
+      else {
+          x.style.display = "none";
+      }
+}
+
+const darkBtn = document.getElementById("dark-btn");
+  darkBtn.onclick = function(){
+      darkBtn.classList.toggle('dark-btn-on');
+      document.body.classList.toggle("light-mode");
+}
+
+
+    </script>
+</body>
+</html>
+
+
