@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title class="fa-solid fa-bell fa-shake">Facebook Page</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="./images/facebook-logo.png" alt="logo" class="logo" />
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search Facebook" autocomplete="off" />
+            </div>
+        </div>
+
+        <div class="nav-mid">
+            <i class="fa fa-home" aria-hidden="true" title="Home"></i>
+           <a href="./video.html"> <i class="fa-brands fa-youtube" title="Watch"></i></a> 
+            <i class="fa-solid fa-store" title="Market Place"></i>
+            <i class="fa-solid fa-gamepad" title="Gaming"></i>
+            <i class="fa fa-group" title="Goup"></i>
+        </div>
+
+        <div class="nav-right">
+            <ul>
+                <li><i class="fa-solid fa-table-cells" title="Menu"></i></li>
+                <li><i class="fab fa-facebook-messenger" title="Massenger"></i></li>
+                <li>
+                    <i class="fa-solid fa-bell fa-shake" title="Notification"></i>
+                </li>
+            </ul>
+
+            <div class="nav-user-icon online" >
+                <img src="./images/Ajit profile.jpg" title="Your Profile"  onclick="menuToggle()" id="online"/>
+            </div>  
+        </div>
+
+
+   <!--------- Settings menu --------- -->
+
+     <div class="menu-setting" id="settingsMenu">
+        <!-- <div id="dark-btn">
+            <span></span>
+        </div> -->
+        <div class="menu-setting-inner">
+
+            <div class="user-profile post__profile">
+                <img src="/images/Ajit profile.jpg" alt="" />
+                    <div>
+                        <p>Ajit Kushwaha</p>
+                    </div>                                  
+            </div>
+            <hr>
+             <div class="see-profile">
+                 <a href="#" onclick="friendPage()"> See Your Profile</a>
+             </div>
+        </div>
+
+        <div class="settings-links">
+            <img src="./images/setting.png" class="settings-icon" >
+            <a href="#">Setting & privacy <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/help.png" class="settings-icon">
+            <a href="#">Help & support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/display.png" class="settings-icon">
+            <a href="#">Display & Support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/feedback.png" class="settings-icon">
+            <a href="#">Give feedback <img src="./images/arrow.png" 
+                width="10px"></a>
+         </div>
+        <div class="settings-links">
+            <img src="./images/logout.png" class="settings-icon">
+            <a href="#">Log Out </a>
+         </div>
+         <div class="settings-links">
+            <i class="fa fa-moon settings-icon" id="moon"></i>
+            <a href="#">Dark mode <i id="dark-btn"> <span></span></i>
+                </a>
+        </div>
+
+         <div class="privacy-copyright">
+            <a href="#"><span style="color:#2D88FF">Privacy.term</span>.advertising.meta 
+                <span style="color:#2D88FF">copyRight 2022.</span> </a>
+         </div>
+
+    </nav>
+
+    <!--------- Left-Sidebar --------- -->
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="important-link">
+                <a href="./friendsPage.html" onclick="FriendPage()"><i class="fas fa-user-friends" aria-hidden="true" title="Home"></i>Friends</a>
+                <a href="#"><i class="fa-brands fa-youtube" title="Watch"></i>Watch</a>
+                <a href="#"><i class="fa-solid fa-store" title="Market Place"></i>Market
+                    place</a>
+                <a href="#"><i class="fa fa-gamepad" aria-hidden="true" title="Gaming"></i>Gaming</a>
+                <a href="#"><i class="fa-solid fa-flag flag__color"></i> Pages</a>
+                <a href="#"><i class="fa-solid fa-clock"></i>Memories</a>
+                <a href="#"><i class="fa-solid fa-bookmark  sved-color"></i>Saved</a>
+                <a href="#"><i class="fa-solid fa-chart-simple"></i>Ads Master</a>
+                <a href="#"><i class="fa-solid fa-bullhorn"></i>Ads Master</a>
+                <a href="#" style="color: rgb(115, 203, 228)"><i class="fa-solid fa-angle-up"></i> See more</a>
+            </div>
+
+            <div class="your-shortcuts">
+                <h3>Your-Shortcuts</h3>
+                <a href="#"><img src="./images/shortcut-1.png" alt="" /> Web Developer</a>
+                <a href="#"><img src="./images/shortcut-2.png" alt="" /> Front-End Developer</a>
+                <a href="#"><img src="./images/shortcut-3.png" alt="" /> Developer Cource</a>
+                <a href="#"><img src="./images/shortcut-4.png" alt="" /> Lets code with me</a>
+            </div>
+        </div>
+
+        <!--------- Main-Content --------- -->
+        <div class="main-content">
+            <div class="story-gallary">
+                <div class="story story1">
+                    <img src="/images/upload.png" alt="" />
+                    <p>Create Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="/images/member-1.png" alt="" />
+                    <p>alison mina</p>
+                </div>
+                
+                <div class="story story3">
+                    <img src="/images/member-6.png" alt="" />
+                    <p>code beuty</p>
+                </div>
+                <div class="story story4">
+                    <img src="/images/member-3.png" alt="" />
+                    <p>Jasica neon</p>
+                </div>
+                <div class="story story5">
+                    <img src="/images/member-8.png" alt="" />
+                    <p>Alisha kent</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                    <textarea rows="3" placeholder="What's on your mine Ajit?"></textarea>
+                </div>
+
+                <div class="post-input-container">
+                    <div class="add-post-links">
+                        <a href="#"><img src="/images/live-video.png" alt="" />Live Video</a>
+                        <a href="#"><img src="/images/photo.png" alt="" /> Photo/Video</a>
+                        <a href="#"><img src="/images/feeling.png" alt="" />Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="create-room">
+                <div class="film">
+                    <a href="#"><img src="/images/live-video.png" alt="" />Create Video</a>
+                    
+                </div>
+                <div class="online-list list__modify">
+                    <div class="online">
+                        <img src="/images/member-1.png" alt="" />
+                    </div>
+                </div>
+                <div class="online-list list__modify">
+                    <div class="online">
+                        <img src="/images/member-2.png" alt="" />
+                    </div>
+                </div>
+                <div class="online-list list__modify">
+                    <div class="online">
+                        <a href="#"> <img src="/images/member-3.png" alt="" /> </a>
+                    </div>
+                </div>
+                <div class="online-list list__modify">
+                    <div class="online">
+                        <img src="/images/member-4.png" alt="" />
+                    </div>
+                </div>
+                <div class="online-list list__modify">
+                    <div class="online">
+                        <img src="/images/member-8.png" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <!---------- POST1------------ -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile post__profile">
+                        <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div>
+                                <p>Ajit Kushwaha</p>
+                                <span>july 24 2022, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum Rllam omnis itaque corrupti odio, fuga ea, repellendus
+                    cupiditate reprehenderit nesciunt perferendis explicabo?
+                    Consequatur, sapiente! <a href="#">@ajju_kushwaha</a>.
+                </p>
+                <img src="/images/feed-image-2.png" alt="" class="post-img" />
+
+                <div class="post-row ">
+                    <div class="activity-icons">
+                        <div><img src="/images/like-blue.png" alt="" />120</div>
+                        <div><img src="/images/comments.png" alt="" />45</div>
+                        <div><img src="/images/share.png" alt="" />25</div>
+                    </div>
+                    <div class="like-comment">
+                        <div class="like">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h3>Like</h3>
+                        </div>
+                        
+                        <div class="comment">
+                            <i class="fa-solid fa-message"></i>
+                            <h3>Comment</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- POST2------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile post__profile">
+                        <img src="/images/member-2.png" alt="" />
+                        <div>
+                            <div>
+                                <p>Ajit Kushwaha</p>
+                                <span>julai 24 2022, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum Rllam omnis itaque corrupti odio, fuga ea, repellendus
+                    cupiditate reprehenderit nesciunt perferendis explicabo?
+                    Consequatur, sapiente! <a href="#">@ajju_kushwaha</a>.
+                </p>
+                <img src="/images/feed-image-4.png" alt="" class="post-img" />
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/images/like-blue.png" alt="" />120</div>
+                        <div><img src="/images/comments.png" alt="" />45</div>
+                        <div><img src="/images/share.png" alt="" />25</div>
+                    </div>
+                    <div class="like-comment">
+                        <div class="like">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h3>Like</h3>
+                        </div>
+                        
+                        <div class="comment">
+                            <i class="fa-solid fa-message"></i>
+                            <h3>Comment</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- POST3------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile post__profile">
+                        <img src="/images/member-8.png" alt="" />
+                        <div>
+                            <div>
+                                <p>Ajit Kushwaha</p>
+                                <span>julai 24 2022, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum Rllam omnis itaque corrupti odio, fuga ea, repellendus
+                    cupiditate reprehenderit nesciunt perferendis explicabo?
+                    Consequatur, sapiente! <a href="#">@ajju_kushwaha</a>.
+                </p>
+                <img src="/images/feed-image-3.png" alt="" class="post-img" />
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/images/like-blue.png" alt="" />120</div>
+                        <div><img src="/images/comments.png" alt="" />45</div>
+                        <div><img src="/images/share.png" alt="" />25</div>
+                    </div>
+                    <div class="like-comment">
+                        <div class="like">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h3>Like</h3>
+                        </div>
+                        
+                        <div class="comment">
+                            <i class="fa-solid fa-message"></i>
+                            <h3>Comment</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- POST4------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile post__profile">
+                        <img src="/images/member-3.png" alt="" />
+                        <div>
+                            <div>
+                                <p>Ajit Kushwaha</p>
+                                <span>julai 24 2022, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum Rllam omnis itaque corrupti odio, fuga ea, repellendus
+                    cupiditate reprehenderit nesciunt perferendis explicabo?
+                    Consequatur, sapiente! <a href="#">@ajju_kushwaha</a>.
+                </p>
+                <img src="/images/feed-image-5.png" alt="" class="post-img" />
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/images/like-blue.png" alt="" />120</div>
+                        <div><img src="/images/comments.png" alt="" />45</div>
+                        <div><img src="/images/share.png" alt="" />25</div>
+                    </div>
+                    <div class="like-comment">
+                        <div class="like">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h3>Like</h3>
+                        </div>
+                        
+                        <div class="comment">
+                            <i class="fa-solid fa-message"></i>
+                            <h3>Comment</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- POST5------------ -->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile post__profile">
+                        <img src="/images/member-9.png" alt="" />
+                        <div>
+                            <div>
+                                <p>Arnold</p>
+                                <span>julai 14 2022, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum Rllam omnis itaque corrupti odio, fuga ea, repellendus
+                    cupiditate reprehenderit nesciunt perferendis explicabo?
+                    Consequatur, sapiente! <a href="#">@ajju_kushwaha</a>.
+                </p>
+                <img src="/images/feed-image-1.png" alt="" class="post-img" />
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="/images/like-blue.png" alt="" />120</div>
+                        <div><img src="/images/comments.png" alt="" />45</div>
+                        <div><img src="/images/share.png" alt="" />25</div>
+                    </div>
+                    <div class="like-comment">
+                        <div class="like">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <h3>Like</h3>
+                        </div>
+                        
+                        <div class="comment">
+                            <i class="fa-solid fa-message"></i>
+                            <h3>Comment</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------- right-Sidebar --------- -->
+        <div class="right-sidebar">
+            <div class="right-sidetitle">
+                <h4>Your Pages and profiles</h4>
+                <p><i class="fa-brands fa-css3-alt"></i>PageName</p>
+            </div>
+            <div class="swiches">
+                <a href="#"><i <i class="fa-solid fa-repeat"></i>Switch into Page</a>
+                <a href="#"><i class="fa-solid fa-bullhorn"></i>Create Promotion</a>
+            </div>
+
+            <div class="event-title">
+                <h4>Events</h4>
+                <a href="#"> See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Kahi bhi</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event-title">
+                <h4>Advertisement</h4>
+                <a href="#"> See All</a>
+            </div>
+            <img src="./images/advertisement.png" alt="" class="sidbar-adds" />
+            <div class="event-title">
+                <h4>Conversation</h4>
+                <a href="#"> Hide Client</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-1.png" alt="" />
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-2.png" alt="" />
+                </div>
+                <p>Crishten lap</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-3.png" alt="" />
+                </div>
+                <p>Jasica Neon</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-4.png" alt="" />
+                </div>
+                <p>Jecktion Stew</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-5.png" alt="" />
+                </div>
+                <p>Rayeon</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-6.png" alt="" />
+                </div>
+                <p>Code beuty</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-7.png" alt="" />
+                </div>
+                <p>Martin sen</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-8.png" alt="" />
+                </div>
+                <p>Alisha Kent</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="/images/member-9.png" alt="" />
+                </div>
+                <p>Aaryan</p>
+            </div>
+        </div>
+    </div>
+
+
+ <script src="scrip.js"></script>
+</body>
+
+</html>

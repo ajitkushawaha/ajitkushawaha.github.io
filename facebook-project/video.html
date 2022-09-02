@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title class="fa-solid fa-bell fa-shake">Facebook Page</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/searchVideo.css" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="./images/facebook-logo.png" alt="logo" class="logo" />
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search Facebook" autocomplete="off" />
+            </div>
+        </div>
+
+        <div class="nav-mid">
+           <a href="/index.html"> <i class="fa fa-home" aria-hidden="true" title="Home"></i></a> 
+            <i class="fa-brands fa-youtube" title="Watch"></i>
+            <i class="fa-solid fa-store" title="Market Place"></i>
+            <i class="fa-solid fa-gamepad" title="Gaming"></i>
+            <i class="fa fa-group" title="Goup"></i>
+        </div>
+
+        <div class="nav-right">
+            <ul>
+                <li><i class="fa-solid fa-table-cells" title="Menu"></i></li>
+                <li><i class="fab fa-facebook-messenger" title="Massenger"></i></li>
+                <li>
+                    <i class="fa-solid fa-bell fa-shake" title="Notification"></i>
+                </li>
+            </ul>
+
+            <div class="nav-user-icon online" >
+                <img src="./images/Ajit profile.jpg" title="Your Profile"  onclick="menuToggle()" id="online"/>
+            </div>  
+        </div>
+
+
+      
+     <div class="menu-setting" id="settingsMenu">
+        <div class="menu-setting-inner">
+
+            <div class="user-profile post__profile">
+                <img src="/images/Ajit profile.jpg" alt="" />
+                    <div>
+                        <p>Ajit Kushwaha</p>
+                    </div>                                  
+            </div>
+            <hr>
+             <div class="see-profile">
+                 <a href="#" onclick="friendPage()"> See Your Profile</a>
+             </div>
+        </div>
+
+        <div class="settings-links">
+            <img src="./images/setting.png" class="settings-icon" >
+            <a href="#">Setting & privacy <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/help.png" class="settings-icon">
+            <a href="#">Help & support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/display.png" class="settings-icon">
+            <a href="#">Display & Support <img src="./images/arrow.png" 
+                width="10px"></a>
+
+        </div>
+        <div class="settings-links">
+            <img src="./images/feedback.png" class="settings-icon">
+            <a href="#">Give feedback <img src="./images/arrow.png" 
+                width="10px"></a>
+         </div>
+        <div class="settings-links">
+            <img src="./images/logout.png" class="settings-icon">
+            <a href="#">Log Out </a>
+         </div>
+         <div class="settings-links">
+            <i class="fa fa-moon settings-icon" id="moon"></i>
+            <a href="#">Dark mode <i id="dark-btn"> <span></span></i>
+                </a>
+        </div>
+
+
+         <div class="privacy-copyright">
+            <a href="#"><span style="color:#2D88FF">Privacy.term</span>.advertising.meta 
+                <span style="color:#2D88FF">copyRight 2022.</span> </a>
+         </div>
+
+    </nav>
+
+      <!--------- Left-Sidebar --------- -->
+      
+    <div class="containers  watch__section_options">
+
+        <div class="friends-left-sidebar">
+            <div class="friends-setting">
+                <h3>Watch</h3>
+                <img src="./images/setting.png" class="settings-icon" >
+            </div>
+
+            <div class="search__video">
+                <div class="search-box">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Search Videos" autocomplete="off" />
+                </div>
+            </div>
+            <div class="settings-links watch__section_options">
+                <i class="fa-brands fa-youtube"></i>
+                <a href="./index.html">home </a>
+        
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-film settings-icon"></i>
+                <a href="#request-friend">Show  </a>
+            </div>
+         
+            <div class="settings-links watch__section_options3">
+                <i class="fa-solid fa-bookmark  settings-icon"></i>
+                <a href="#">Saved Video</a>
+        
+            </div>
+
+            <hr>
+
+            <div class="event-title ">
+                <h4>Following</h4>
+                <a href="#"> Manage</a>
+            </div>
+            <div class="settings-links">
+                <i class="fa-solid fa-video settings-icon letest-video"></i>
+                <a href="#" >Letest Video </a>
+        
+            </div>
+          
+            <div class="settings-links">
+                <img src="/images/nikita.jpg" alt="">
+                <a href="#">Nikita Dutta </a>
+             </div>
+                   
+            <div class="settings-links">
+                <img src="/images/gt hindi.jpg" alt="">
+                <a href="#"> GT hindi</a>
+             </div>
+             <div class="settings-links">
+                <img src="/images/riet.png" alt="">
+                 <a href="#"> Riet collage</a>
+              </div>
+         </div>
+        
+     
+    
+       <!-- ----------main contain-------- -->
+         
+        <div class="main-content video__section">
+            <div video__section2>
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ajit Kushwaha .</p>
+                                    <span>july 24 2022, 13:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/DevOps Introduction_HD.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>10k. </span>
+                    <e>1k</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+
+            <!---------- POST2------------ -->
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ramesh Jangid .</p>
+                                    <span>july 20 2022, 3:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/JavaScript Tutorial In Hindi.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>5k. </span>
+                    <e>20</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+            <!---------- POST3------------ -->
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ajit Kushwaha .</p>
+                                    <span>july 24 2022, 13:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/DevOps Introduction_HD.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>10k. </span>
+                    <e>1k</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+            <!---------- POST4------------ -->
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ajit Kushwaha .</p>
+                                    <span>july 24 2022, 13:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/DevOps Introduction_HD.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>10k. </span>
+                    <e>1k</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+            <!---------- POST5------------ -->
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ajit Kushwaha .</p>
+                                    <span>july 24 2022, 13:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/DevOps Introduction_HD.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>10k. </span>
+                    <e>1k</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+            <!---------- POST6------------ -->
+            <div class="video-containers">
+                <div class="user-profile post__profile">
+                    <img src="/images/Ajit profile.jpg" alt="" />
+                        <div>
+                            <div class="channel-name">
+                                <div>
+                                    <p>Ajit Kushwaha .</p>
+                                    <span>july 24 2022, 13:40 pm</span>
+                                </div>
+                                <span class="follow">Follow</span>
+                            </div>
+                        </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <div>
+                    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium consequuntur quos eum ullam,
+                         totam voluptatum? Dignissimos nemo nobis error sit!</p>
+                    <video controls width="650" height="480">
+                     <source src="/video/DevOps Introduction_HD.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="likes-comments">
+                    <div class="left-text">
+                        <a href="#"><i class="fa-solid fa-thumbs-up" style="color:#2D88FF"></i>Like</a>
+                        <a href="#"><i class="fa-solid fa-message"></i>Comment</a>
+                        <a href="#"><i class="fa-solid fa-share"></i>Share</a>
+                    </div>
+
+                   <div class="right-icons">
+                    <a href="#" class="fa-solid fa-thumbs-up"> <i class="fa-solid fa-heart"></i></a>
+                    <span>10k. </span>
+                    <e>1k</e>
+                    
+                    <a href="#">Comment</a>
+
+                   </div>
+                </div>
+           
+            </div>
+        </div>
+        </div>
+     
+    </div>
+
+    <script src="/scrip.js"></script>
+</body>
