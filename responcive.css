@@ -282,3 +282,43 @@
       transform: translateX(0);
     }
   }
+
+
+/* About Section */
+
+@media screen and (max-width: 900px) {
+  .about-section {
+      display: block;
+      height: 100%;
+  }
+
+  .about__right {
+      width: 25rem;
+      text-align: center;
+      background-position: 0 0;
+      margin-left: 6rem;
+      margin-top: -4rem;
+  }
+  .about__right img {
+      margin-top: -8rem;
+  }
+
+}
+
+@media screen and (max-width: 467px) {
+  .about__right {
+      margin-left: 0rem;
+      margin-top: -4rem;
+      width: 23rem;
+  }
+}
+
+
+@media screen and (max-width: 650px) {
+  .about__right {
+      margin-left: -1rem;
+      margin-top: -4rem;
+  }
+}
+
+
