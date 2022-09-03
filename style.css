@@ -189,6 +189,8 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   text-align: center;
   padding: 1rem ;
+  font-size: 3rem;
+  color:#444;
 }
 
 .about-section {
@@ -245,7 +247,7 @@ html::-webkit-scrollbar-thumb {
 }
 .about__left p {
   font-size: 1.5rem;
-  color: #555;
+  color: #444;
   
 }
 
@@ -380,8 +382,6 @@ html::-webkit-scrollbar-thumb {
   font-weight: 700;
 }
 
-
-
 .qualifications {
   flex-basis: 50%;
   display: flex;
@@ -413,7 +413,7 @@ html::-webkit-scrollbar-thumb {
   align-items: flex-start;
   flex-direction: column;
   width: 37rem;
-  margin: 2.5rem;
+  margin: 2rem;
   border-left: 0.2rem solid #a2a1a1;
   position: relative;
 }
@@ -444,7 +444,7 @@ html::-webkit-scrollbar-thumb {
 }
 .education .box-container .box p {
   font-size: 1.4rem;
-  line-height: 2rem;
+  line-height: 2.5rem;
   padding-left: 2rem;
 }
 
