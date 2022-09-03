@@ -276,8 +276,7 @@ html::-webkit-scrollbar-thumb {
 .skill {
   width: 100%;
   padding: 1rem;
-  color: #9f9999;
-  min-height: 50rem;
+  color: #9f9999; 
 }
 .row1{
   flex-basis: 50%;
