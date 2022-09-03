@@ -192,7 +192,10 @@ html::-webkit-scrollbar-thumb {
   font-size: 3rem;
   color:#444;
 }
-
+.about__heading {
+  font-size: 3rem;
+  color:#444;
+}
 .about-section {
   display: flex;
   align-items: center;
@@ -225,38 +228,38 @@ html::-webkit-scrollbar-thumb {
 
 }
 
-.about__left{
+.About__left{
   flex-basis: 50%;
   padding:0 2rem;
 
 }
-.about__left a{
+.About__left a{
   text-decoration: none;
   color: inherit;
 }
-.about__left button:hover{
-  color: white;
-  background: teal;
-}
-.about__left h3 {
+
+.About__left h3 {
   color: #444;
   font-size: 1.8rem;
   margin: 1rem 0;
-  
 
 }
-.about__left p {
+.About__left p {
   font-size: 1.5rem;
   color: #444;
   
 }
 
-.about__left button {
+.About__left button {
   padding: .4rem 1rem;
   border: 2px solid teal;
   background: white;
   transition: all 0.6s;
   margin: 2rem 0;
+}
+.About__left button:hover{
+  color: white;
+  background: teal;
 }
 
 
@@ -266,7 +269,6 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* margin-top: 5rem; */
 }
 
 .skill {
@@ -297,12 +299,12 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
   padding: 3rem;
   overflow: hidden;
   border-radius: 2px;
-  box-shadow:  .2rem .2rem 1rem rgba(0, 0, 0, 0.3);
+/*   box-shadow:  .2rem .2rem 1rem rgba(0, 0, 0, 0.3); */
 }
 
 .skill__name {
