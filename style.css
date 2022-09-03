@@ -183,7 +183,6 @@ html::-webkit-scrollbar-thumb {
 .about__section {
   font-family: sans-serif;
   padding: 2rem;
-  color: #9f9999;
 }
 
 .primary__heading {
@@ -193,7 +192,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about-section {
-  color: #777;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,7 +225,7 @@ html::-webkit-scrollbar-thumb {
 
 .about__left{
   flex-basis: 50%;
-  padding:2rem 0;
+  padding:0 2rem;
 
 }
 .about__left a{
@@ -239,13 +237,16 @@ html::-webkit-scrollbar-thumb {
   background: teal;
 }
 .about__left h3 {
-  color: #555;
+  color: #444;
   font-size: 1.8rem;
   margin: 1rem 0;
+  
 
 }
 .about__left p {
   font-size: 1.5rem;
+  color: #555;
+  
 }
 
 .about__left button {
