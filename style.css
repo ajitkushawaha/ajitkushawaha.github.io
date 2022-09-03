@@ -277,7 +277,7 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   padding: 1rem;
   color: #9f9999;
-  min-height: 54rem;
+  min-height: 50rem;
 }
 .row1{
   flex-basis: 50%;
@@ -776,7 +776,7 @@ html::-webkit-scrollbar-thumb {
     color: #555;
     padding-bottom: 1rem;
 
-    border-bottom: 1px solid #ddd;
+    
     
   }
   .projects{
