@@ -194,7 +194,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 .about__heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color:#444;
 
 }
@@ -202,11 +202,10 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 2rem;
   line-height: 2rem;
   height: 25rem;
   width: 100%;
-  margin:0  2rem;
+
 
 }
 
@@ -289,10 +288,10 @@ html::-webkit-scrollbar-thumb {
 
 .skill_title {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 1rem;
   color: #444;
-  border-bottom: 1px solid #aeb2b3;
+  border-bottom: 1.5px solid #ddd;
 
 }
 
@@ -379,7 +378,7 @@ html::-webkit-scrollbar-thumb {
 .education__heading {
   font-size: 2.5rem;
   color: #444;
-  border-bottom: 1px solid #aeb2b3;
+  border-bottom: 1.5px solid #ddd;
   padding: 2rem 0;
   font-weight: 700;
 }
@@ -452,7 +451,6 @@ html::-webkit-scrollbar-thumb {
 
 .contact-section {
   background: #fff;
-  /* padding: 1rem 0; */
   width: 100%;
 }
 .map-location {
@@ -462,7 +460,7 @@ html::-webkit-scrollbar-thumb {
   margin: 2rem;
   padding: 2rem 0;
   border-radius: 5px;
-  box-shadow:  .2rem .2rem 3rem rgba(0, 0, 0, 0.2);
+/*   box-shadow:  .2rem .2rem 3rem rgba(0, 0, 0, 0.2); */
   overflow: hidden;
 }
 .contact-container .detail1 {
@@ -478,7 +476,7 @@ html::-webkit-scrollbar-thumb {
 .contact-section h1 {
   font-weight: 700;
   font-size: 3rem;
-  border-bottom: 1px solid #aeb2b3;
+  border-bottom: 1.5px solid #ddd;
 
   color: #444;
   padding: 2rem 0;
