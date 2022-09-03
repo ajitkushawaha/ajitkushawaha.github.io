@@ -70,20 +70,11 @@
     }
 
     .box-container {
-      padding: 4rem;
+     
       display: block;
     }
 
-  .qualifications{
-    box-shadow: 0 .5rem .5rem 1rem rgba(0, 0, 0, 0.2);
-    padding: 3rem;
-    margin-bottom: 1rem;
-  }
-  .experiece{
-    box-shadow: 0 .5rem .5rem 1rem rgba(0, 0, 0, 0.2);
-    padding: 3rem;
-  }
-
+  
     .map-location {
       display: block;
     }
