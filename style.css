@@ -206,7 +206,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .about__right {
-  background-image: url(/About__bgimg.png);
+  background-image: url(About__bgimg.png);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
