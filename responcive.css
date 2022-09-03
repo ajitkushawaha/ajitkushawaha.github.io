@@ -6,7 +6,7 @@
     }
 
     .about__section {
-      padding: 3rem;
+      padding: 3rem ;
     }
 
     .column__right ul li {
@@ -29,9 +29,7 @@
     .detail1 .location .material-icons {
       font-size: 1rem;
     }
-     .row1{
-        padding:0rem 1rem;
-     }
+   
      .html__pre{
         width: 40rem;
      }
