@@ -28,6 +28,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: teal;
+  color:white;
 }
 
 html {
@@ -188,13 +189,14 @@ html::-webkit-scrollbar-thumb {
 .primary__heading {
   width: 100%;
   text-align: center;
-  padding: 1rem ;
-  font-size: 3rem;
-  color:#444;
+  padding: 2rem 0 ;
+  border-bottom: 1px solid #ddd;
+
 }
 .about__heading {
-  font-size: 3rem;
+  font-size: 2rem;
   color:#444;
+
 }
 .about-section {
   display: flex;
@@ -299,9 +301,9 @@ html::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 100%;
-  padding: 3rem;
+  padding: 2rem;
   overflow: hidden;
   border-radius: 2px;
 /*   box-shadow:  .2rem .2rem 1rem rgba(0, 0, 0, 0.3); */
@@ -310,7 +312,6 @@ html::-webkit-scrollbar-thumb {
 .skill__name {
   font-size: 1.5rem;
   color: #555;
-  margin: 5rem;
   padding-bottom: 2rem;
 }
 
@@ -369,17 +370,16 @@ html::-webkit-scrollbar-thumb {
 
 /* MY EDUCATION AND EXPERIENCE */
 .education{
-  box-shadow: 0 .3rem .3rem .4rem rgba(0, 0, 0, 0.1);
+/*   box-shadow: 0 .3rem .3rem .4rem rgba(0, 0, 0, 0.1); */
   margin: 1rem;
 }
 
 
 
 .education__heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #444;
   border-bottom: 1px solid #aeb2b3;
-
   padding: 2rem 0;
   font-weight: 700;
 }
@@ -400,12 +400,8 @@ html::-webkit-scrollbar-thumb {
 
 }
 
-.qualifications__heading {
-  font-size: 3rem;
-}
-
-
 .education__headings {
+  text-align:left;
   font-size: 2rem;
   color: #444;
 }
