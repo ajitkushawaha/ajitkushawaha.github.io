@@ -190,12 +190,13 @@ html::-webkit-scrollbar-thumb {
   width: 100%;
   text-align: center;
   padding: 2rem 0 ;
-  border-bottom: 1px solid #ddd;
+  
 
 }
 .about__heading {
   font-size: 2.5rem;
   color:#444;
+  border-bottom: 1px solid #aeb2b3
 
 }
 .about-section {
@@ -291,7 +292,7 @@ html::-webkit-scrollbar-thumb {
   font-size: 2.5rem;
   padding-bottom: 1rem;
   color: #444;
-  border-bottom: 1.5px solid #ddd;
+  border-bottom: 1px solid #aeb2b3
 
 }
 
@@ -378,7 +379,7 @@ html::-webkit-scrollbar-thumb {
 .education__heading {
   font-size: 2.5rem;
   color: #444;
-  border-bottom: 1.5px solid #ddd;
+  border-bottom: 1px solid #aeb2b3;
   padding: 2rem 0;
   font-weight: 700;
 }
@@ -476,7 +477,7 @@ html::-webkit-scrollbar-thumb {
 .contact-section h1 {
   font-weight: 700;
   font-size: 3rem;
-  border-bottom: 1.5px solid #ddd;
+   border-bottom: 1px solid #aeb2b3;
 
   color: #444;
   padding: 2rem 0;
