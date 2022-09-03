@@ -774,6 +774,7 @@ html::-webkit-scrollbar-thumb {
     font-size:2rem;
     color: #555;
     padding-bottom: 1rem;
+    border-bottom:1px solid #ddd;
 
     
     
