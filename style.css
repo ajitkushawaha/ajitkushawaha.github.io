@@ -192,66 +192,69 @@ html::-webkit-scrollbar-thumb {
   padding: 1rem ;
 }
 
-.about__heading {
-  color: #444;
-  font-size: 3rem;
-  font-weight: 700;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #aeb2b3;
-}
-
-.about__paragraph {
-  color: #555;
-  padding: 1rem;
-  font-size: 1.5rem;
-  line-height: 1.5em;
-}
-
-.about__section__row {
+.about-section {
+  color: #777;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  border-radius: 2px;
-  box-shadow:  .2rem .2rem 1rem rgba(0, 0, 0, 0.3);
-  padding: 2rem;
-
-}
-
-#about__image {
-  width: 30rem;
-  border-radius: 0.4rem;
-}
-
-.column__right {
-  font-size: 1.1rem;
-  align-items: center;
   justify-content: center;
-  padding: 2rem;
-}
-.about__section ul li {
-  margin-bottom: 4rem;
+  padding: 0 2rem;
+  line-height: 2rem;
+  height: 25rem;
   width: 100%;
-  list-style: none;
+  margin:0  2rem;
+
 }
 
-.about__section ul span {
-  padding-left: .6rem;
-  font-size: 1.5rem;
+.about__right {
+  background-image: url(About__bgimg.png);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 25rem;
+  margin:0 2rem;
+  transition: all .7s;
+}
+.about__right:hover {
+  transform: rotateY(10deg);
+  
+}
+
+.about__right img {
+  width: 18rem;
+  margin: 0 2rem;
+
+}
+
+.about__left{
+  flex-basis: 50%;
+  padding:2rem 0;
+
+}
+.about__left a{
+  text-decoration: none;
+  color: inherit;
+}
+.about__left button:hover{
+  color: white;
+  background: teal;
+}
+.about__left h3 {
   color: #555;
-}
+  font-size: 1.8rem;
+  margin: 1rem 0;
 
-.about__section ul i {
-  font-size: 2rem;
-  color:teal;
 }
-
-.about__section ul strong {
-  color: #444;
-  padding-left: 1rem;
+.about__left p {
   font-size: 1.5rem;
 }
 
+.about__left button {
+  padding: .4rem 1rem;
+  border: 2px solid teal;
+  background: white;
+  transition: all 0.6s;
+  margin: 2rem 0;
+}
 
 
 
