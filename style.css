@@ -173,21 +173,20 @@ html::-webkit-scrollbar-thumb {
 
 .hero__section__name p {
   font-size: 3rem;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   font-weight: 600;
   animation-name: moveInRight;
   animation-duration: 5s;
   display: inline-block;
 
 }
-.hero__section__name span {
+.hero__section__name span{
   font-size: 3rem;
   padding: 1rem 0;
   font-weight: 600;
   animation-name: moveInRight;
   animation-duration: 15s;
   color: yellow;
-
 }
 
 /* ABOUR section start */
