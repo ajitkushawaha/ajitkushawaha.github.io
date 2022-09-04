@@ -163,6 +163,8 @@ html::-webkit-scrollbar-thumb {
 
 .hero__section__name {
   color: #ffff;
+  width: 100%;
+  text-align:center;
 }
 
 .heading-primary {
