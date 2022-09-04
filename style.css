@@ -175,7 +175,7 @@ html::-webkit-scrollbar-thumb {
 
 .hero__section__name p {
   font-size: 3rem;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   font-weight: 600;
   animation-name: moveInRight;
   animation-duration: 5s;
@@ -184,7 +184,7 @@ html::-webkit-scrollbar-thumb {
 }
 .hero__section__name span{
   font-size: 3rem;
-  padding: 1rem 0;
+  padding: 1rem 1.3rem;
   font-weight: 600;
   animation-name: moveInRight;
   animation-duration: 15s;
