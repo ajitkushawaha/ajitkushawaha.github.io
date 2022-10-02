@@ -25,6 +25,13 @@ function slidebarToggal() {
       x.style.display = "block";
     }
   }
+  window.addEventListener('mouseup', function(event){
+    var x = document.getElementById("slidebar");
+   
+    if (event.target != x){
+      x.style.display = "none";
+    }
+  });
 
 
   
