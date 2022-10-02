@@ -9,7 +9,6 @@ function menuToggle() {
 
 window.addEventListener('mouseup', function(event){
     var x = document.getElementById("settingsMenu");
-   
     if (event.target != x){
       x.style.display = "none";
     }
