@@ -22,7 +22,6 @@ window.addEventListener('mouseup', function(event){
 }
 
 const like = document.getElementById('like');
-
 like.addEventListener('click', function onClick() {
   tlike.style.color = 'skyblue';
   thumb.style.color = 'skyblue';
