@@ -54,6 +54,8 @@ nav{
     position: sticky;
     top: 0;
     z-index: 100;
+    height: 6rem;
+
 }
 .logo{
     width: 4rem;
@@ -482,11 +484,7 @@ nav{
    font-size: 1rem;
 }
 
-.post-input-container{
-    padding-left: 5.5rem;
-    padding-top: 2rem;
-    
-}
+
 .user-profile textarea{
     width: 100%;
     height:5rem;
@@ -503,24 +501,29 @@ nav{
 }
 
 .add-post-links{
-    display: flex;
-    margin-top:1rem;
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .add-post-links a{
-    display: flex;
-    align-items: center;
     text-decoration: none;
     color: #626262;
-    margin-right: 3rem;
     font-size:1.4rem;
-    padding: 1rem 2rem;
     border-radius: .5rem;
 }
-.add-post-links a:hover{
-
+.add-post-links .live__video{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem .5rem;
+   border-radius: .5rem;
+}
+.add-post-links live__video:hover{
     background: var(--hover-color);
     color:#ffff;
-    
+}
+.post-input-container{
+    padding:.5rem;
 }
 .add-post-links img{
     width: 2rem;
@@ -537,21 +540,22 @@ nav{
     box-shadow: 0 0 1rem rgba(0,0,0,0.5);
 
 }
+
 .create-room .film{
    display: flex;
    align-items:center;
+   justify-content: center;
    border: 2px solid #1876f2;
-   padding:1rem;
    border-radius: 50rem;
-   margin:0 2rem;
+   width: 13rem;
+   padding:1rem 0 ;
+   margin: 1rem;
 }
 .create-room a{
    text-decoration: none;
    align-items:center;
    font-size:1.5rem;
    color: #2D88FF;
-   margin-right:1rem;
-
 }
 .film img{
   width:2rem;
@@ -997,6 +1001,74 @@ padding: 0rem 1rem;
     text-decoration: none;
     color: #2D88FF;
  }
+
+/* Responsive */
+@media only screen and (max-width: 1800px) {
+    nav{
+        padding:0 1rem;
+    }
+    .nav-mid{
+      display: flex;
+       
+    }
+    .nav-mid i {
+      margin:0 1.5rem;
+      padding:1rem 2rem;
+      font-size: 2.5rem;
+    } 
+    .nav-right ul{
+        display: flex;
+        
+    }
+    .nav-right ul i{
+       font-size: 2rem;
+        
+    }
+    .search-box {
+       width: 4rem;
+    }
+  }
+@media only screen and (max-width: 1100px) {
+   
+    .left-sidebar{ 
+      display: none;
+    }
+
+  }
+@media only screen and (max-width: 900px) {
+  
+    .right-sidebar{
+        display: none;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    .nav-mid{
+      display: none;
+       
+    }
+  }
+@media only screen and (max-width: 400px) {
+    .nav-mid{
+      display: none;
+       
+    }
+    .main-content {
+        width: 100%; 
+        padding: 0;       
+    }
+    .user-profile textarea::-webkit-scrollbar {
+        display: none;
+   }
+ .create-room a {
+    font-size: 1rem;
+
+}
+.create-room .film {
+    padding:.5rem 1rem;
+    border-radius:10px;
+}
+}
+
 
 
  
