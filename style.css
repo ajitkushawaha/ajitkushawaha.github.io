@@ -714,23 +714,23 @@ html::-webkit-scrollbar-thumb {
   }
 
   .my__project {
-    text-align: center;
+/*     text-align: center; */
   }
 
   .open-page {
     display: inline-block;
     margin: 0.5rem 0 0 2rem;
     background: #ddd;
-    width: 13rem;
+    padding: .5rem 1rem;
     font-size: 1.5rem;
-    border-bottom: 1px solid #274;
+    border-bottom: 1px solid teal;
     transition: all 0.5s;
   }
 
   .open-page:hover {
-    background: #274;
+    background: teal;
     color: #fff;
-    box-shadow: 0 1rem 2rem #000;
+    box-shadow: 0 .5rem 1rem #000;
     transform: translateY(-3px);
   }
 
