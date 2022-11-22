@@ -173,7 +173,7 @@ html::-webkit-scrollbar-thumb {
   animation-duration: 5s;
 }
 
-.hero__section__name p {
+.section__name{
   font-size: 3rem;
   padding: 1rem 0;
   font-weight: 600;
