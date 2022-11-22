@@ -147,24 +147,24 @@ html::-webkit-scrollbar-thumb {
 
 /* HERO SECTION START */
 
-#hero {
-  padding: 1rem;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hsection{
   font-family: "Courier New", Courier, monospace;
-  background-image: url(picture/bg8.jpg);
+  background-image: url(/picture/bg4.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center top;
+  min-height: 100vh;
+  padding: 1rem;
 }
 
-.hero__section__name {
+
+.hero__section--name {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
   color: #ffff;
-  width: 100%;
-  text-align:center;
 }
 
 .heading-primary {
