@@ -108,6 +108,13 @@
      .user h3 {
       font-size: 1.6rem;
     }
+    
+    .hero__section--name{
+      left:0;
+    }
+    .section--name{
+      font_size:2rem;
+    }
     #about__image{
       display: none;
     }
