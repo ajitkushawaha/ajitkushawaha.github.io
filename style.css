@@ -147,7 +147,7 @@ html::-webkit-scrollbar-thumb {
 
 /* HERO SECTION START */
 
-#particles-js {
+#hero {
   padding: 1rem;
   min-height: 100vh;
   display: flex;
