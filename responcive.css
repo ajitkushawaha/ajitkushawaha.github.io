@@ -112,6 +112,9 @@
     .hero__section--name{
       left:0;
     }
+    .hero__section{
+      display:flex;
+    }
     .section--name{
       font_size:2rem;
     }
