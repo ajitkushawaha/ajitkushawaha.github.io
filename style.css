@@ -13,6 +13,9 @@ body {
   background:#f7f7f7;
 
 }
+h3{
+  cursor: pointer;
+}
 
 *::selection {
   background: teal;
