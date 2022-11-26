@@ -251,7 +251,15 @@
     }
     .second{
     margin-top: 2rem;
-    }   
+    }
+     .projects{
+      height: 48vh;
+    } 
+    
+    .pjslider{
+      top: 2.5rem;
+
+    }
   }
 
 /* Animation */
