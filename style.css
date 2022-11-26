@@ -794,29 +794,59 @@ html::-webkit-scrollbar-thumb {
   .projects{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 2rem;
+    height: 70vh;
 
   }
-  .projects img{
-    height: 26rem;
-    width: 55rem;
-    border-radius: 5px;
-    transition: all .4s;
-    padding: 1rem;
-    transform: skew(2rem);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+  .pjslider{ 
+    position: relative;
+    width: 400px;
+    height: 193px;
+    transform-style:preserve-3d ;
+    animation: rotate 30s linear infinite;
+  }
+  @keyframes rotate{
+    0%{
+      transform: perspective(10000px) rotateY(0deg);
+    }
+     
+    100%{
+      transform: perspective(10000px) rotateY(360deg ) ;
+    }
+  }
+ .pjslider a{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style:preserve-3d  ;
+  transform: rotateY(calc(var(--1)*90deg)) translateZ(230px);
+ }
+ .fbslider__img{
+  box-shadow: 0rem 0rem 0rem 3.01rem #333;
+ }
+.ntslider__img{
+  box-shadow: 0rem 0rem 0rem 3.01rem lightgreen;
+}
+.etslider__img{
+  box-shadow: 0rem 0rem 0rem 3.01rem maroon;
+}
+.voslider__img{
+  box-shadow: 0rem 0rem 0rem 3.01rem wheat;
 
+}
+.projects img{
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 2s;
+ 
   }
-  .projects img:hover{
-    
-    transform: scale(1.1);
-  }
-  .projects .first{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
  
   
