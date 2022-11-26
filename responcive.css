@@ -33,11 +33,6 @@
      .html__pre{
         width: 40rem;
      }
-     .projects img{
-      height: 20rem;
-      width: 46rem;
-      margin: 1rem;       
-     }
 
   }
 
@@ -91,15 +86,6 @@
     .navbal__list{
      display: none;
     }
-    
-    
-    .projects img{
-      height: 20rem;
-      width: 36rem;
-      margin: 1rem;
-       
-     }
-    
     
 
   }
