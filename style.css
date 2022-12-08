@@ -856,5 +856,36 @@ html::-webkit-scrollbar-thumb {
   transition: 2s;
  
   }
+.newsUpdates{
+   position: absolute;
+   bottom: 1rem;
+   background: rgba(0, 0, 0, 0.2);
+   width: 100%;
+   height: 2rem;
+   color: yellow;
+   font-size: 2rem;
+  }
+  .btn__dowload{
+    text-align: center;
+  }
+  .btn__dowload a{
+    list-style:none;
+  }
+  .btn__dowload button{
+    padding: 1rem 3rem;
+    border-radius: .2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #444;
+    border: 3px solid white;
+  }
+
+@media screen and (max-width: 467px) {
+
+  .newsUpdates{
+    bottom:10rem
+  }
+}
+
  
   
