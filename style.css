@@ -33,7 +33,10 @@ body {
   padding: 4rem;
 
 }
-
+.icon-24px{
+  width: 24px;
+  fill: #3c873a;
+}
 .hero-icon {
   padding: .5rem;
 }
